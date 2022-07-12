@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WP Gym",
+    "slug": "WP_Gym_Application",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 10,
+      "permissions" : [
+        "CAMERA",
+        "MEDIA_LIBRARY",
+        "CAMERA_ROLL"
+      ],
+      "package": "com.pushnifty.gymapp"
+    },
+    "ios": {
+      "buildNumber": "14",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow WP GYM app to access carema to scan QR code."
+      },
+      "bundleIdentifier": "com.pushnifty.gymapp",
+      "supportsTablet": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
